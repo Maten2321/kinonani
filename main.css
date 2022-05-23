@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    outline: none;
+}
+header {
+	width: 100%;
+	padding: 10px 0.5% 0px 0.5%;
+	background: transparent;
+	float: left;
+	position: fixed;
+}
+@media (min-width: 701px) {
+    #menu {
+		float: left;
+		width: 100%;
+	}
+}
+@media (max-width: 700px) {
+    #menu {
+        float: left;
+        width: 100%;
+    }
+}
+#menu {
+    text-align: center;
+    font-size: 1em;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+  
+#menu > a {color: #000000}
+  
+#menu > a:hover {
+    color: ;
+    text-decoration: underline;
+}
+  
+#menu > a:not(:last-child) {
+    margin-right: 2%;
+}
+  
+  
+.fixed {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 1px solid silver;
+}
+
+.fixed #menu a {color: #343434}
+
+.fixed #menu a:hover {color: #7c7c7c}
+
+#content {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#h1 {
+    padding-top: 10%;
+    text-align: center;
+    color: #fff;
+}
+
+#image {
+    text-align: center;
+}
+
+#feedback {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+body{
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-03/1614779973_167-p-prazdnichnii-fon-200.jpg");
+    background-size: 100%;
+    font-family: 'Playfair Display', serif;
+}
+#content h2{
+    text-align: center;
+}
